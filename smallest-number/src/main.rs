@@ -15,5 +15,5 @@ fn find_smallest_int2(arr: &[i32]) -> i32 {
             min = *n;
         }
     }
-    min
+    return min;
 }
